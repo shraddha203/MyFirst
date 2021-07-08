@@ -6,7 +6,7 @@ def subtract(x,y):
    return x-y   #on master branch
    #multiply
 def multiply(x,y):
-    pass     #on Bug456 branch
+   return x*y     #on Bug456 branch
 def divide(x,y):
     if y==0:       #on Bug 789
         return DIVIDE_BY_ZERO_ERROR
